@@ -8,6 +8,6 @@ public class HelloWorld
     System.out.println("Hello World!");
     System.out.println("Name? >");
     String x = in.nextLine();
-    System.out.println("Goodbye");
+    System.out.println("Goodbye " + x);
   }
 }
